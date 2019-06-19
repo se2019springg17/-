@@ -1,0 +1,23 @@
+*{ margin:0px; padding:0px;}
+body{ text-align:left;  font-family:"Microsoft YaHei";}
+.wap{ width:1000px; height:auto; margin:0 auto;}
+.head{ width:1000px; height:120px; background:url(images/banner.jpg) no-repeat;}
+td{ text-align:left; align:left; font-size:12px; padding:0 5px; line-height:2.0;}
+a{ text-decoration:none; color:#FF0033;  font-family:"Microsoft YaHei";} 
+img{ border:none;}
+.nav{ width:238px; height:500px; background:url(images/left.jpg) repeat-y; margin:1px 0 0 0; overflow:hidden; float:left;}
+.head p{ text-align:center; padding:45px 0 0 0;}
+.nav h3{ width:218px; height:35px; line-height:35px; background:#816d3b; color:#fff; text-align:left; padding:0 0 0 20px; font-size:14px;}
+.nav ul li{ width:210px; height:35px; line-height:35px; background:url(images/line.jpg) no-repeat left bottom; margin:0 0 0 20px;}
+.nav ul li a{ color:#a79157; background:url(images/li.jpg) no-repeat left center;  padding:0 0 0 20px; font-size:14px;}
+.ny-right{ width:762px; min-height:500px; background:#f4f4f4; float:left; margin:1px 0 0 0;}
+.ny-right h3{ width:742px; height:35px; line-height:35px; background:#a79157;text-align:left; padding:0 0 0 20px; font-size:14px; color:#fff;}
+.clear{ clear:both;}
+.foot1{ width:1000px; height:100px; background:#a79157;}
+.foot1 p{ text-align:center; color:#fff; font-size:14px; padding:30px;} 
+.foot1 p a{ color:#fff; text-decoration:underline;}
+
+ul { list-style:none;}
+input.zhaiyao{ width:420px; height:100px; margin:10px 0 0 0;}
+input.wbk{ width:420px; height:22px; line-height:22px;}
+.box{ margin:0 auto;}
