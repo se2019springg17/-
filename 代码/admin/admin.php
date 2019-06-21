@@ -14,9 +14,9 @@ include '../connect.php';
     <table border=1px cellpadding="0" cellspacing="0" style="margin:0 auto; width:680px;">
 
 <?php
-	if ($_GET['action']=="del"){
+	if ($_GET['action']=="del"){//删除操作
 		$query = mysql_query("delete from users where id= ".$_GET['id']);
-		echo 
+		echo //跳出页面
 		"<script type='text/javascript'>
 		alert('删除成功');
 		window.location.href='admin.php';
@@ -27,7 +27,7 @@ include '../connect.php';
 	echo '<tr><td>用户名</td><td>密码</td>
 	 <td>电话</td><td>邮箱</td><td>管理</td></tr>'; 
 	
-	while($row = mysql_fetch_array($query,MYSQL_ASSOC)){
+	while($row = mysql_fetch_array($query,MYSQL_ASSOC)){//从数据库加载数据
 		echo '<tr><td>'.$row['yhm'].'</td><td>'.$row['mm'].'&nbsp;&nbsp;&nbsp;
 	 	</td><td>'.$row['tel'].'</td><td>'.$row['email'].'</td> &nbsp;&nbsp;&nbsp;&nbsp;<td><a href="?action=del&id='.$row['id'].'">删除</a></td></tr>';
 	}
